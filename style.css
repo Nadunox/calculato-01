@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    background-color: #f2f2fc;
+}
+
+
+.background {
+    width: 300px;
+    height: 570px;
+    background-color: #17181a;
+    border-radius: 20px;
+    
+
+}
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 7%;
+   
+}
+
+.enter-box{
+    margin: 10px;
+    border-radius: 20px;
+    width: 280px;
+    height: 200px;
+    background-color: #232428;
+}
+
+.div-background button{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.div-background{
+    background-color: #17181a;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin: 10px; */
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* .div-background :nth-child(13){
+    grid-column: span 2;
+} */
+
+
+.btn0{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn0:active{
+    scale: 0.90;
+}
+.btn0:hover{
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+    
+
+}
+
+.btn1:active{
+    scale: 0.90;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn2:active{
+    scale: 0.90;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+
+.btn3{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn2:active{
+    scale: 0.90;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+
+.btn3{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+}
+
+.btn3:active{
+    scale: 0.90;
+}
+.btn3:hover{
+    cursor: pointer;
+}
+
+.btn4{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn4:active{
+    scale: 0.90;
+}
+.btn4:hover{
+    cursor: pointer;
+}
+
+.btn5{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn5:active{
+    scale: 0.90;
+}
+.btn5:hover{
+    cursor: pointer;
+}
+
+.btn6{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn6:active{
+    scale: 0.90;
+}
+.btn6:hover{
+    cursor: pointer;
+}
+
+.btn7{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn7:active{
+    scale: 0.90;
+}
+.btn7:hover{
+    cursor: pointer;
+}
+
+.btn8{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btn8:active{
+    scale: 0.90;
+}
+.btn8:hover{
+    cursor: pointer;
+}
+
+.btn9{
+    background-color: #232428;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins';
+    transition: all .10s ease; 
+}
+
+.btn9:active{
+    scale: 0.90;
+}
+.btn9:hover{
+    cursor: pointer;
+}
+
+
+.btnp{
+    background-color: #ff9401;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+
+}
+
+.btnp:active{
+    scale: 0.90;
+}
+.btnp:hover{
+    cursor: pointer;
+}
+
+.btnm{
+    background-color: #ff9401;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btnm:active{
+    scale: 0.90;
+}
+.btnm:hover{
+    cursor: pointer;
+}
+
+.btng{
+    background-color: #ff9401;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btng:active{
+    scale: 0.90;
+}
+.btng:hover{
+    cursor: pointer;
+}
+
+.btnb{
+    background-color: #ff9401;
+    color: white;
+    border: none;
+    font-size: 25px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+
+.btnb:active{
+    scale: 0.90;
+}
+.btnb:hover{
+    cursor: pointer;
+}
+
+.btns{
+    background-color:#28cd6f ;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btns:active{
+    scale: 0.90;
+}
+.btns:hover{
+    cursor: pointer;
+}
+
+.btnc{
+    background-color: #232428;
+    color: #ff5f05;
+    border: none;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+    transition: all .10s ease;
+}
+
+.btnc:active{
+    scale: 0.90;
+}
+.btnc:hover{
+    cursor: pointer;
+}
+
+/* .btn0{
+    width: 100px;
+    height: 100px;
+} */
+
+
+input{
+    width: 260px;
+    height: 130px;
+    border: none;
+    color: white;
+    background-color: #232428;
+    font-size: 25px;
+    font-family: 'Poppins'; 
+    text-align: end;
+    padding-right: 15px;
+    
+}
+
+.enter-box h1{
+    font-size: 25px;
+    font-family: 'Poppins'; 
+    background-color: #232428;
+    color: #f2f2fc;
+    text-align: end;
+    padding-right: 18px;
+    font-weight: 400;
+}
+
+input :active{
+    border: none;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 720px){
+    .background{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .enter-box{
+        width: 95vw;
+    }
+
+    .main{
+        margin-top: 0;
+    }
+}
