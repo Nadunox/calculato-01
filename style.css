@@ -360,11 +360,35 @@ input{
     font-weight: 400;
 }
 
+
+.enter-box{
+    background-color: #232428;
+}
+.enter-box h4{
+    font-size: 15px;
+    
+    font-family: 'Poppins'; 
+    background-color: #232428;
+    color: #575758;
+    text-align: end;
+    padding-right: 18px;
+    font-weight: 400;
+}
+
 input :active{
     border: none;
     padding-top: 15px;
 }
 
+.display{
+
+
+}
+
+
+.display2{
+    margin-top: 40%;
+}
 
 
 

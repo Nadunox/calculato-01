@@ -20,29 +20,35 @@
 <div class="main">
     <section class="background">
         <div class="enter-box">
-            <input type="text" placeholder="Enter Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-           <br> <br><h1>00</h1>
+            <!-- <h1 id="display" class="input">00</h1> -->
+            <br> <br>
+            <div class="display-all">
+                <h1 id="display" ></h1>
+                <h4 id="display2"></h4>
+            </div>
 
         </div>
         <div class="div-background">
-            <button id="btb1" class="btn1">1</button>
-            <button id="btb2" class="btn2">2</button>
-            <button id="btb3" class="btn3">3</button>
-            <button id="btbp" class="btnp">+</button>
-            <button id="btb4" class="btn4">4</button>
-            <button id="btb5" class="btn5">5</button>
-            <button id="btb6" class="btn6">6</button>
-            <button id="btbm" class="btnm">-</button>
-            <button id="btb7" class="btn7">7</button>
-            <button id="btb8" class="btn8">8</button>
-            <button id="btb9" class="btn9">9</button>
-            <button id="btbg" class="btng">*</button>
-            <button id="btb0" class="btn0">0</button>
-            <button id="btbb" class="btnb">/</button>
-            <button id="btbc" class="btnc">C</button>
-            <button id="btbs" class="btns">=</button>
+            <button id="btb1" class="btn1" onclick="btn1();">1</button>
+            <button id="btb2" class="btn2" onclick="btn2();">2</button>
+            <button id="btb3" class="btn3" onclick="btn3();">3</button>
+            <button id="btbp" class="btnp" onclick="e();">+</button>
+            <button id="btb4" class="btn4" onclick="btn4();">4</button>
+            <button id="btb5" class="btn5" onclick="btn5();">5</button>
+            <button id="btb6" class="btn6" onclick="btn6();">6</button>
+            <button id="btbm" class="btnm" onclick="a();">-</button>
+            <button id="btb7" class="btn7" onclick="btn7();">7</button>
+            <button id="btb8" class="btn8" onclick="btn8();">8</button>
+            <button id="btb9" class="btn9" onclick="btn9();">9</button>
+            <button id="btbg" class="btng" onclick="g();">*</button>
+            <button id="btb0" class="btn0" onclick="btn0();">0</button>
+            <button id="btbb" class="btnb" onclick="b();">/</button>
+            <button id="btbc" class="btnc" onclick="eraser();">C</button>
+            <button id="btbs" class="btns" onclick="eq();">=</button>
             
+
         </div>
+        
 
     </section>
 </div>
